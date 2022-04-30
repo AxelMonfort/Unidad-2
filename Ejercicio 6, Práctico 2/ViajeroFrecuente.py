@@ -13,4 +13,6 @@ class Viajero:
         return (self.__millasAcum > other.__millasAcum)
     def __add__(self, other):
         return (self.__millasAcum + 100)
+    def __sub__(self,other):
+        return (self.__millasAcum - 100)
 
